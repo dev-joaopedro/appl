@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.varal {
+    text-align: center;
+}
+
+#fotoInput, #descricaoInput, #adicionarFoto {
+    margin-bottom: 15px;
+}
+
+.fotos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.polaroid {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+}
+
+.descricao {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.data {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+    color: #888;
+}
